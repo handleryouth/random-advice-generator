@@ -51,7 +51,7 @@ const Home: NextPage = () => {
 
         <div className="flex items-center justify-center mt-4">
           <div
-            className="bg-green-500  flex items-center justify-center rounded-full w-min p-3"
+            className="bg-green-500 hover:bg-blue-500 cursor-pointer transition-colors flex items-center justify-center rounded-full w-min p-3"
             onClick={() => refetch()}
           >
             <Image
